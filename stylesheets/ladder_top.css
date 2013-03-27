@@ -31,14 +31,17 @@ nav ul li{
   display: inline-block;
   width: 200px;
   height: 35px;
-  border: 2px solid #ffc24d;
+  /*border: 2px solid #ffc24d;*/
 }
 
 nav a{
   text-decoration: none;
-  color:#ffc24d;
+  text-transform: uppercase;
+  color:#000000;
   font-size: 27px;
   line-height: 35px;
+  text-shadow: 0px 2px 2px #ffc24d;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 p{padding:20px;}
@@ -53,6 +56,18 @@ footer ul li{
   list-style: none;
   /*display: inline;*/
 }
+
+/*******************
+Contact Form
+*******************/
+#contact_h1{text-align: center;}
+#contact_form{
+  margin: 100px auto;
+  max-width: 310px;
+}
+
+form{text-align: left;}
+
 
 /*******************
 Slide Show
