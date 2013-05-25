@@ -1,3 +1,18 @@
+@font-face{
+font-family: top_secret;
+src: url('../fonts/Top_Secret.ttf')
+}
+
+@font-face{
+font-family: bundy_clear;
+src: url('../fonts/BndyYlwHS.ttf')
+}
+
+@font-face{
+font-family: bundy_solid;
+src: url('../fonts/BndyYlwSolid.ttf')
+}
+
 body{
   /*background:url("../images/brushed_metal_new.png");*/
   background: #000000;
@@ -20,9 +35,14 @@ body{
 #logo{
   width:100px;
   float: left;
-  margin-left: 10px;
+  margin: 0 10px 0 10px;
 }
-
+.company_name{
+  margin: 0;
+  font-family: top_secret;
+  font-size: 45px;
+  text-shadow: 0px 2px 2px #ffc24d;
+}
 nav{text-align: center;}
 
 nav ul{}
@@ -41,19 +61,26 @@ nav a{
   font-size: 27px;
   line-height: 35px;
   text-shadow: 0px 2px 2px #ffc24d;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'top_secret', sans-serif;
 }
 
+.left_column{
+  width: 50%;
+  float: left;
+}
 p{padding:20px;}
 
 footer{
    color:#ffc24d;
    text-align: center;
    padding-top: 20px;
+   font-family: bundy_solid;
 }
+footer address {line-height: 20px;}
 footer ul{padding: 0px;}
 footer ul li{
   list-style: none;
+  line-height: 20px;
   /*display: inline;*/
 }
 
@@ -77,7 +104,8 @@ Slide Show
   max-height: 600px;
   border: 1px solid #ffc24d;
   border-bottom: 28px solid #ffc24d;
-  margin: 0px auto;
+  /*margin: 0px auto;*/
+  margin-left: 50%;
 }
 #slides img{
   width: 450px;
