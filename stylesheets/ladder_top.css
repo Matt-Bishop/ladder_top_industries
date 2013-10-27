@@ -25,6 +25,7 @@ body{
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
   color: #000000; /*#ffc24d;*/
   padding: 10px;
   -webkit-box-shadow: 0 0 20px rgba(255, 194, 77, 0.75);
