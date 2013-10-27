@@ -26,7 +26,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  color: #000000; /*#ffc24d;*/
+  color: #000000; /*#FFC327;*/
   padding: 10px;
   -webkit-box-shadow: 0 0 20px rgba(255, 194, 77, 0.75);
   -moz-box-shadow:    0 0 20px rgba(255, 194, 77, 0.75);
@@ -38,11 +38,19 @@ body{
   float: left;
   margin: 0 10px 0 10px;
 }
+
+#rafter_claw_logo{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 10px;
+}
+
 .company_name{
   margin: 0;
   font-family: top_secret;
   font-size: 45px;
-  text-shadow: 0px 2px 2px #ffc24d;
+  text-shadow: 0px 2px 2px #FFC327;
 }
 nav{text-align: center;}
 
@@ -52,7 +60,7 @@ nav ul li{
   display: inline-block;
   width: 200px;
   height: 35px;
-  /*border: 2px solid #ffc24d;*/
+  /*border: 2px solid #FFC327;*/
 }
 
 nav a{
@@ -61,7 +69,7 @@ nav a{
   color:#000000;
   font-size: 27px;
   line-height: 35px;
-  text-shadow: 0px 2px 2px #ffc24d;
+  text-shadow: 0px 2px 2px #FFC327;
   font-family: 'top_secret', sans-serif;
 }
 
@@ -70,9 +78,10 @@ nav a{
   float: left;
 }
 p{padding:20px;}
-
+.left_column p{padding:10px 20px 5px 20px;}
+.left_column p.first{padding-top: 55px;}
 footer{
-   color:#ffc24d;
+   color:#FFC327;
    text-align: center;
    padding-top: 20px;
    font-family: bundy_solid;
@@ -103,8 +112,8 @@ Slide Show
 #slide_wrapper{
   max-width: 450px;
   max-height: 600px;
-  border: 1px solid #ffc24d;
-  border-bottom: 28px solid #ffc24d;
+  border: 1px solid #FFC327;
+  border-bottom: 28px solid #FFC327;
   /*margin: 0px auto;*/
   margin-left: 50%;
 }
